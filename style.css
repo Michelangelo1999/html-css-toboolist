@@ -21,7 +21,29 @@ body{
 
 .btn-blue{
     background-color: #15b6ec;
+    border-color: #15b6ec;
+    color: white;
 }
+
+.btn-disabled{
+    border-color: grey;
+    color: grey;
+}
+
+.main-voice{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.sign{
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 11px;
+    width: 16px;
+}
+
+
 /*end area comune*/
 
 /*header style*/
@@ -43,10 +65,40 @@ h1{
     width: 60%;
     margin: 0 auto;
     margin-top: 5%;
+    padding: 0 30px 30px 30px;
+    border-radius: 10px;
 }
 
 ul{
     list-style-type: none;
+}
+
+.check{
+    border: 1px solid green;
+    color: green;
+    
+}
+.cross{
+    border: 1px solid red;
+    color: red;
+}
+
+.top{
+    border-bottom: 1px solid lightgray;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.task{
+    color:rgba(16, 16, 16, 0.8)
+}
+
+.main-interline{
+    padding-top: 20px;;
+}
+
+.middle-interline{
+    padding-top: 15px;
 }
 /*end main style*/
 
